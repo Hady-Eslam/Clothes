@@ -1,0 +1,80 @@
+th{
+    color: #40535F;
+    margin: 0px;
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-left-width: 0px;
+    border-left-style: solid;
+    width: 70px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+td{
+    color: #40535F;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.EditBox{
+    font-size: 18px;
+    position: fixed;
+    top: 30px;
+    background-color: #F1F1F1;
+    left: 430px;
+    width: 500px;
+    height: 430px;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #F1F1F1;
+    z-index: 200;
+    opacity: 1;
+    visibility: hidden;
+    color: #454747;
+}
+
+.DeleteBox{
+    position: fixed;
+    top: 200px;
+    background-color: #F1F1F1;
+    left: 440px;
+    width: 360px;
+    height: 120px;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #F1F1F1;
+    z-index: 200;
+    opacity: 1;
+    visibility: hidden;
+    color: #2F3231;
+}
+
+.Box_P{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 0px;
+    margin: 0px;
+    margin-left:50px;
+    padding-left: 50px;
+    margin-right: 50px;
+}
+
+.Box_ButtonDiv{
+    text-align: center;
+    padding: 0px;
+    margin: 20px;
+}
+
+.Box_Button{
+    background-color: #A4A7A7;
+    border-color: #A4A7A7;
+}
+
+.EditBox_P{
+    display: inline;
+    padding-left: 35px;
+    padding-right: 30px;
+}

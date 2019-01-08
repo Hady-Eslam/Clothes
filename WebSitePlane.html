@@ -1,0 +1,304 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>WebSite Plane</title>
+	<style type="text/css">
+		.Input_Data{
+		    border-width: 1px;
+		    border-style: solid;
+		    border-radius: 5px;
+		    padding: 7 7 7 7;
+		    margin: 10 10 10 10;
+		    font-size: 15px;
+		    border-color: #645A60;
+		}
+		.Button{
+		    cursor: pointer;
+		    height: 40px;
+		    background-color: #0DBC77;
+		    border-color: #0DBC77;
+		    border-width: 3px;
+		    border-style: solid;
+		    border-radius: 3px;
+		    font-size: 18px;
+		    color: #FFF;
+		    margin: 10 10 10 10;
+		    width: auto;
+		}
+		.Div{
+			padding: 10 10 10 10;
+			margin: 10 10 10 10;
+			border-bottom-style: solid;
+			border-bottom-width: 5px;
+			text-align: center;
+		}
+		.P{
+			display: inline-block;
+			border-style: solid;
+			border-width: 1px;
+		}
+		th{
+			border-style: solid;
+			border-width: 1px;
+			text-align: center;
+		}
+		td{
+			border-style: solid;
+			border-width: 1px;
+		}
+	</style>
+	<meta charset="utf-8">
+</head>
+<body style="text-align: center;font-size: 30px;">
+
+	<div class="Div">
+		<p>تسجيل الدخول</p>
+
+		<input type="type" name="" placeholder="ادخل الاسم " class="Input_Data">
+		<br>
+		<input type="type" name="" placeholder="ادخل الباسوورد" class="Input_Data">
+		<br>
+		<input type="button" name="" value="دخول" class="Button">
+		<br>
+	</div>
+
+	<div class="Div">
+		<p>تغيير كلمه المرور</p>
+
+		<input type="text" name="" placeholder="كلمه السر القديمه" class="Input_Data">
+		<br>
+		<input type="text" name="" placeholder="كلمه السر الجديده" class="Input_Data">
+		<br>
+		<input type="text" name="" placeholder="تاكيد كلمه السر" class="Input_Data">
+		<br>
+		<input type="button" name="" value="حفظ كلمه السر" class="Button">
+	</div>
+
+	<div class="Div">
+		<p>العميل</p>
+
+		<table style="text-align: center;font-size: 30px;">
+			<tr>
+				<th>كود العميل</th>
+				<th>اسمه</th>
+				<th>رقم تليفون 1</th>
+				<th>رقم تليفون 2</th>
+				<th>رقم تليفون 3</th>
+				<th>عنوان العميل</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Hady</td>
+				<td>0111155464</td>
+				<td>0111155464</td>
+				<td>0111155464</td>
+				<td>23 Elsalam Street</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Hady</td>
+				<td>0111155464</td>
+				<td>0111155464</td>
+				<td>0111155464</td>
+				<td>23 Elsalam Street</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Hady</td>
+				<td>0111155464</td>
+				<td>0111155464</td>
+				<td>0111155464</td>
+				<td>23 Elsalam Street</td>
+			</tr>
+		</table>
+
+		<input type="button" name="" value="تعديل بيانات العميل" class="Button">
+		<input type="button" name="" value="عميل جديد" class="Button">
+	</div>
+
+	<div class="Div">
+		<p>اضافه عميل جديد</p>
+
+		<input type="text" name="" placeholder="ادخل اسم العميل" class="Input_Data">
+		<br>
+		<input type="text" name="" placeholder="ادخل رقم العميل" class="Input_Data">
+		<br>
+		<input type="text" name="" placeholder="ادخل تليفون العميل" class="Input_Data">
+		<br>
+		<input type="text" name="" placeholder="اخل رقم العميل" class="Input_Data">
+		<br>
+		<input type="text" name="" placeholder="ادخل عنوان العميل" class="Input_Data">
+
+		<br>
+		<input type="button" name="" value="حفظ العميل" class="Button">
+	</div>
+
+	<div class="Div">
+		<p>بيانات الاصناف</p>
+
+		كود الصنف = <input type="text" name="ادخل كود الصنف" placeholder="" class="Input_Data">
+		اسم الصنف = <input type="text" name="" value="بنطلونات" readonly class="Input_Data">
+		<br>
+		المجموعه = <input type="text" name="" value="بناطيل" readonly class="Input_Data">
+		المصنع = <input type="text" name="" value="المصريه" readonly class="Input_Data">
+		<br>
+		<br>
+		سعر الجمله = <input type="text" name="" value="50" readonly class="Input_Data">
+		خصم الجمله = <input type="text" name="" value="10%" 
+						readonly class="Input_Data">
+		<br>
+		سعر التجزئه = <input type="text" name="" value="70" readonly class="Input_Data">
+		خصم سعر التجزئه = <input type="text" name="" value="10%" 
+					readonly class="Input_Data">
+		<br>
+		<br>
+		الكميه المعروضه = <input type="text" name="" value="20" class="Input_Data" readonly>
+		الكميه فى المخزن = <input type="text" name="" value="30" class="Input_Data" readonly>
+		اجمالى الكميه = <input type="text" name="" value="50" class="Input_Data" readonly>
+
+		<br>
+		<input type="button" name="" class="Button" value="اضافه صنف جديد">
+		<input type="button" name="" class="Button" value="تعديل صنف">
+
+	</div>
+
+	<div class="Div">
+		<p>صنف جديد</p>
+
+		كود الصنف = <input type="text" name="" placeholder="ادخل كود الصنف" class="Input_Data">
+		الاسم = <input type="text" name="" class="Input_Data" placeholder="ادخل الاسم">
+		<br>
+		المصنه = <input type="text" name="" class="Input_Data" placeholder="ادخل اسم المصنع">
+		المجموعه = 
+		<select class="Input_Data">
+			<option>بناطيل</option>
+			<option>تى شيرت</option>
+			<option>طاقيه</option>
+		</select>
+		<br>
+		<br>
+		سعر الجمله = <input type="text" name="" class="Input_Data" 
+					placeholder="ادخل سعر الجمله">
+		خصم الجمله = <input type="text" name="" class="Input_Data"
+					placeholder="ادخل خصم الجمله">
+		<br>
+		سعر التجزئه = <input type="text" name="" class="Input_Data"
+					placeholder="ادخل سعر التجزئه">
+		خصم التجزئه = <input type="text" name="" class="Input_Data"
+					placeholder="ادخل خصم التجزئه">
+		<br>
+		<br>
+		لكميه المعروضه = <input type="text" name="" class="Input_Data" 
+					placeholder="ادخل الكميه المعروضه">
+		الكميه فى المخزن = <input type="text" name="" class="Input_Data" 
+					placeholder="ادخل الكميه فى المخزن">
+		<br>
+		كل الكميه = <input type="text" name="" class="Input_Data"
+					placeholder="ادخل كل الكميه">
+
+		<br>
+		<input type="button" name="" class="Button" value="احفظ الصنف">
+	</div>
+
+	<div class="Div">
+		<p>Bill</p>
+
+		Bill Number : <input type="text" name="" class="Input_Data" value="125" readonly>
+		Bill Date : <input type="text" name="" class="Input_Data" value="The Date" readonly>
+		<br>
+		Customer : <input type="text" name="" class="Input_Data" 
+					placeholder="Enter Customer Name">
+		<select class="Input_Data">
+			<option>Hady</option>
+			<option>Hady</option>
+			<option>Hady</option>
+			<option>Hady</option>
+		</select>
+
+		<br>
+		Type Of Buying : 
+		<input type="radio" name="Payment" value="Deferred payment">Deferred Payment
+		<input type="radio" name="Payment" value="Cash payment" checked>Cash Payment
+
+		<br>
+		Notes : 
+		<input type="text" name="" placeholder="Enter Notes" class="Input_Data">
+		<br>
+
+		<table style="text-align: center;font-size: 30px;">
+			<tr>
+				<th>id</th>
+				<th>Name</th>
+				<th>Quantity</th>
+				<th>Package</th>
+				<th>Piece Price</th>
+				<th>Price</th>
+				<th>Notes</th>
+			</tr>
+			<tr>
+				<td>4545</td>
+				<td>Pantes</td>
+				<td>1</td>
+				<td>3</td>
+				<td>50</td>
+				<td>150</td>
+				<td>Hellofhgjfhkgj</td>
+			</tr>
+		</table>
+
+		<br>
+		Discount = <input type="text" name="" placeholder="Enter Dicount in Money" 
+							class="Input_Data">Pound 
+		<input type="text" name="" placeholder="Enter Discount in percentage"
+							class="Input_Data">%
+		<br>
+		Payied = <input type="text" name="" placeholder="Enter Payied" class="Input_Data">
+		Not Payied = <input type="text" name="" placeholder="Not Payied" class="Input_Data">
+		Totall = <input type="text" name="" value="150 Pound" readonly class="Input_Data">
+
+		<br>
+		<input type="button" name="" value="Save Bill" class="Button">
+	</div>
+
+	<div class="Div">
+		<p>The Returned</p>
+
+		Returned Number : 
+		<input type="text" name="" class="Input_Data" value="15" readonly>
+		Returned Date : 
+		<input type="text" name="" class="Input_Data" value="The Date" readonly>
+		<br>
+		Notes : 
+		<input type="text" name="" placeholder="Enter Notes" class="Input_Data">
+		<br>
+
+		<table style="text-align: center;font-size: 30px;">
+			<tr>
+				<th>id</th>
+				<th>Name</th>
+				<th>Quantity</th>
+				<th>Package</th>
+				<th>Piece Price</th>
+				<th>Price</th>
+				<th>Notes</th>
+			</tr>
+			<tr>
+				<td>4545</td>
+				<td>Pantes</td>
+				<td>3</td>
+				<td>1</td>
+				<td>50</td>
+				<td>150</td>
+				<td>Hellofhgjfhkgj</td>
+			</tr>
+		</table>
+
+		<br>
+		Totall = <input type="text" name="" value="150 Pound" readonly class="Input_Data">
+
+		<br>
+		<input type="button" name="" value="Save Returned" class="Button">
+	</div>
+
+</body>
+</html>

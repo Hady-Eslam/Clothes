@@ -1,0 +1,142 @@
+important Details in WebSite
+
+1 - Error in Syntax Or Including ( Tracing ) in PHP
+/*
+	init Page API Error Code
+		i
+
+	Pages API Error Code
+		P1	=>	Log in
+			P1F1	=>	Login Process Data
+
+		P2 	=>	Change Password
+			P2F1	=>	Change Process Data
+
+		P3 	=>	Users
+			P3F1	=>	Users Process Data
+
+		P4	=>	Profile
+
+		P5	=>	Clients
+			P5F1	=>	Clients Process Data
+
+		P6	=>	Receipt
+			P6F1	=>	Receipt Process Data
+
+		P7	=>	New Type
+			P7F1	=>	New Type Process Data
+
+		P8	=>	Store Movement
+
+		P9	=>	Purchases
+
+		P10	=>	Bill
+
+		P11 =>	Main
+
+	Class API Error Code
+		C1	=>	MySqlDB
+		C2	=>	Hashing
+		C3	=>	Session
+		C4	=>	URL
+		C5	=>	FILTERS
+		C6	=>	JSON
+	
+	Global Function API Error Code
+
+	SimiPages API Error Code
+		SP1	=>	LogOutUser
+
+		SP2	=>	CheckUser
+
+		SP3	=>	GetTypeData
+
+		SP4	=>	SaveBill
+*/
+
+================================================================================
+
+2 - Errors Returned
+/*
+	in MySqlDB Class
+		1 	=>	My Sql Error 	=>	Access Denied
+		2	=>	My Sql Error 	=>	Error in excuting Query
+		3	=>	My Sql Error 	=>	Error in Counting Query
+		4	=>	My Sql Error 	=>	Error in Fetching One Row
+		5	=>	My Sql Error 	=>	Error in Fetching All Rows
+		6	=>	My Sql Error 	=>	Error in Searching For Column
+
+	in Hashing Class
+		7	=>	Hashing $Location Error 	=> Length is Short, Can't Hashing
+
+	in URL Class
+		8	=>	URL Error 	=>	Error in Getting The Path Of The URL
+
+	in JSON Class
+		9	=>	JSON Error 	=>	Object Indix Not Found
+		10	=>	JSON Error 	=>	Error in Converting To JSON
+		12	=>	JSON Error 	=>	Error in Converting Error To JSON
+
+	in Purchases/Bill Page
+		11	=>	JSON Error 	=>	Failed To Covert JSON
+*/
+
+==================================================================================
+
+3 - Some important info For More Securing
+/*
+
+=> 	Log in Page
+
+	N 		=>	Name
+	P 		=>	Password
+
+=>	Change Password
+
+	OP		=>	OldPassword
+
+=>	Users
+
+	Ph 			=>	Phone
+	Status 		=>	Status
+	EStatus 	=>  Edit Status
+
+=>	Clients
+
+	Ph1		=>	Phone1
+	Ph2		=>	Phone2
+	Ph3		=>	Phone3
+	Add		=>	Add
+
+=>	Receipt 				=> All Values
+	
+	Pay		=>	Pay Button
+	N 		=>	Name
+	M 		=>	Money
+	Note	=>	Note
+
+=>	New Type				=> All Values
+
+	G 		=>	Group
+	N 		=>	Item Name
+	F 		=>	Item Factory
+	WP 		=>	Wholesale Price
+	WD 		=>	Wholesale Disccount
+	RP		=>	Retail Price
+	RD 		=>	Retail Disccount
+	Q 		=>	The Quentity in Store
+
+=>	Bill 					=> All Values
+	
+	Name 			=>	Bill Name
+    Buying			=>	Type Of Buying
+    Note 			=>	Bill Note
+	TypeID 			=>	Type ID
+	TypeQuantity	=>	Type Quantity
+	TypePrice		=>	Type Piece Price
+	TypeDiscount	=>	Type Discount
+	TypeNote		=>	Type Note
+	Discount 		=>	Discount Of The Bill in Pound
+    AllDiscount		=>	Discount Of The Bill in Percent
+    Payied			=>	The Payied Of The Bill
+*/
